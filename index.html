@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Forth Bridge</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <div class="header-inner">
+      <h1>The Forth Bridge</h1>
+      <p class="subtitle">Scotland's engineering icon — spanning the Firth of Forth since 1890</p>
+    </div>
+    <figure class="hero-image">
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/a/a3/Forth_Rail_Bridge.jpg"
+        alt="The Forth Bridge seen from the south bank, its three red cantilever towers rising above the Firth of Forth with a train crossing"
+        width="1575"
+        height="1181"
+      />
+      <figcaption>
+        Forth Rail Bridge — <a href="https://commons.wikimedia.org/wiki/File:Forth_Rail_Bridge.jpg" target="_blank" rel="noopener">Nicobobinus</a>, <a href="https://creativecommons.org/licenses/by/2.5" target="_blank" rel="noopener">CC BY 2.5</a>, via Wikimedia Commons
+      </figcaption>
+    </figure>
+  </header>
+
+  <nav class="tab-bar" role="tablist" aria-label="Forth Bridge sections">
+    <button role="tab" id="tab-overview"    aria-controls="panel-overview"    aria-selected="true"  class="tab active">Overview</button>
+    <button role="tab" id="tab-history"     aria-controls="panel-history"     aria-selected="false" class="tab">History</button>
+    <button role="tab" id="tab-engineering" aria-controls="panel-engineering" aria-selected="false" class="tab">Engineering</button>
+    <button role="tab" id="tab-heritage"    aria-controls="panel-heritage"    aria-selected="false" class="tab">Heritage</button>
+    <button role="tab" id="tab-visitors"    aria-controls="panel-visitors"    aria-selected="false" class="tab">Visitors</button>
+  </nav>
+
+  <main class="content">
+
+    <!-- OVERVIEW -->
+    <section role="tabpanel" id="panel-overview" aria-labelledby="tab-overview" class="panel active">
+      <div class="panel-inner">
+        <h2>Overview</h2>
+        <p class="lead">
+          The Forth Bridge is a cantilever railway bridge crossing the Firth of Forth in Scotland,
+          connecting South Queensferry to North Queensferry. Opened in 1890, it remains one of the
+          most recognisable structures in the world and a proud symbol of Scottish and Victorian
+          engineering.
+        </p>
+
+        <div class="facts-grid">
+          <div class="fact-card">
+            <span class="fact-number">2,467 m</span>
+            <span class="fact-label">Total length (8,094 ft)</span>
+          </div>
+          <div class="fact-card">
+            <span class="fact-number">1890</span>
+            <span class="fact-label">Year opened</span>
+          </div>
+          <div class="fact-card">
+            <span class="fact-number">200</span>
+            <span class="fact-label">Trains per day</span>
+          </div>
+          <div class="fact-card">
+            <span class="fact-number">3 million</span>
+            <span class="fact-label">Passengers per year</span>
+          </div>
+          <div class="fact-card">
+            <span class="fact-number">521 m</span>
+            <span class="fact-label">Main span length</span>
+          </div>
+          <div class="fact-card">
+            <span class="fact-number">110 m</span>
+            <span class="fact-label">Height above high water</span>
+          </div>
+        </div>
+
+        <div class="info-block">
+          <h3>At a glance</h3>
+          <ul>
+            <li>Carries the <strong>Edinburgh–Aberdeen</strong> mainline railway across the Firth of Forth.</li>
+            <li>Designated a <strong>UNESCO World Heritage Site</strong> in July 2015 — the sixth in Scotland.</li>
+            <li>Voted <strong>Scotland's greatest man-made wonder</strong> in a 2016 public poll.</li>
+            <li>Owned and operated by <strong>Network Rail</strong>.</li>
+            <li>The world's second-longest cantilever span, surpassed only by the Quebec Bridge (1919).</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- HISTORY -->
+    <section role="tabpanel" id="panel-history" aria-labelledby="tab-history" class="panel" hidden>
+      <div class="panel-inner">
+        <h2>History</h2>
+        <p class="lead">
+          The Forth Bridge was born out of tragedy, necessity, and an ambition to prove that
+          Victorian engineering could be trusted again. Its story begins not with its construction,
+          but with the disaster that made it necessary.
+        </p>
+
+        <figure class="content-image">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/8/80/Forth_Bridge_-_General_view_taken_from_the_east_end_of_South_Queensferry.jpg"
+            alt="Black and white photograph of the Forth Bridge under construction in 1887, taken from South Queensferry, showing the three cantilever towers in various stages of completion"
+            width="1280"
+            height="941"
+            loading="lazy"
+          />
+          <figcaption>
+            The bridge under construction, photographed from South Queensferry on 20 May 1887 —
+            <a href="https://commons.wikimedia.org/wiki/File:Forth_Bridge_-_General_view_taken_from_the_east_end_of_South_Queensferry.jpg" target="_blank" rel="noopener">Philip Phillips / National Library of Scotland</a>, Public Domain, via Wikimedia Commons
+          </figcaption>
+        </figure>
+
+        <ol class="timeline">
+          <li class="timeline-item">
+            <span class="year">1879</span>
+            <div class="timeline-content">
+              <h3>The Tay Bridge Disaster</h3>
+              <p>
+                In December 1879, the Tay Bridge collapsed during a violent storm while a passenger
+                train was crossing it, killing all 75 people on board. The disaster destroyed public
+                confidence in railway bridge engineering and led to the abandonment of the original
+                suspension bridge design for the Forth crossing.
+              </p>
+            </div>
+          </li>
+          <li class="timeline-item">
+            <span class="year">1881</span>
+            <div class="timeline-content">
+              <h3>New Design Commissioned</h3>
+              <p>
+                Engineers <strong>Sir John Fowler</strong> and <strong>Sir Benjamin Baker</strong>
+                are commissioned by the Forth Bridge Railway Company to produce a new design. They
+                develop a cantilever truss approach, partly influenced by the work of German engineer
+                Heinrich Gerber, which would prove far more resistant to wind loading.
+              </p>
+            </div>
+          </li>
+          <li class="timeline-item">
+            <span class="year">1882</span>
+            <div class="timeline-content">
+              <h3>Contract Awarded</h3>
+              <p>
+                The construction contract is awarded to <strong>William Arrol &amp; Co.</strong> of
+                Glasgow — the same firm that would later build Tower Bridge in London.
+              </p>
+            </div>
+          </li>
+          <li class="timeline-item">
+            <span class="year">1883</span>
+            <div class="timeline-content">
+              <h3>Work Begins</h3>
+              <p>
+                Foundation work commences. At the peak of construction, over <strong>4,600 men</strong>
+                are employed on the bridge, known collectively as <em>"the Briggers."</em> Work continues
+                day and night across multiple shifts.
+              </p>
+            </div>
+          </li>
+          <li class="timeline-item">
+            <span class="year">1887</span>
+            <div class="timeline-content">
+              <h3>The Human Cantilever</h3>
+              <p>
+                Benjamin Baker delivers a lecture at the Royal Institution and demonstrates the
+                cantilever principle using a live human model — three men, two chairs, broomsticks,
+                and piles of bricks. The photograph taken that day became one of the most reproduced
+                engineering images in history.
+              </p>
+            </div>
+          </li>
+          <li class="timeline-item">
+            <span class="year">1890</span>
+            <div class="timeline-content">
+              <h3>Opening Day — 4 March 1890</h3>
+              <p>
+                The bridge is officially opened by the <strong>Duke of Rothesay</strong> (the future
+                King Edward VII), who drives in the final ceremonial rivet — gold-plated for the
+                occasion. The bridge immediately enters service, completing an unbroken East Coast
+                railway route from London to Aberdeen.
+              </p>
+            </div>
+          </li>
+          <li class="timeline-item">
+            <span class="year">2001</span>
+            <div class="timeline-content">
+              <h3>Repainting Programme Begins</h3>
+              <p>
+                A major 10-year programme begins to apply a new glass-flake epoxy coating across the
+                bridge's entire 230,000 sq metre surface. Every one of the 6.5 million rivets is
+                painted by hand.
+              </p>
+            </div>
+          </li>
+          <li class="timeline-item">
+            <span class="year">2011</span>
+            <div class="timeline-content">
+              <h3>Repainting Completed</h3>
+              <p>
+                The repainting programme is completed after a decade of work, using approximately
+                240,000 litres of paint. The new coating is expected to last 25 years — effectively
+                ending the era of the Forth Bridge as a "never-ending" painting task.
+              </p>
+            </div>
+          </li>
+          <li class="timeline-item">
+            <span class="year">2015</span>
+            <div class="timeline-content">
+              <h3>UNESCO World Heritage Site</h3>
+              <p>
+                In July 2015, UNESCO inscribes the Forth Bridge as a World Heritage Site — the
+                sixth in Scotland — recognising it as a masterpiece of engineering and a milestone
+                in the history of bridge construction.
+              </p>
+            </div>
+          </li>
+          <li class="timeline-item">
+            <span class="year">2016</span>
+            <div class="timeline-content">
+              <h3>Scotland's Greatest Wonder</h3>
+              <p>
+                A public poll votes the Forth Bridge <strong>Scotland's greatest man-made wonder</strong>,
+                ahead of Edinburgh Castle and the Falkirk Wheel.
+              </p>
+            </div>
+          </li>
+        </ol>
+
+        <div class="info-block warning-block">
+          <h3>The human cost</h3>
+          <p>
+            Building the Forth Bridge was dangerous work. Recent historical research by local
+            historians revised the death toll upward from the long-cited figure of 57 to
+            <strong>73 lives lost</strong> during construction. Many more were injured. A memorial
+            to the Briggers stands in North Queensferry.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ENGINEERING -->
+    <section role="tabpanel" id="panel-engineering" aria-labelledby="tab-engineering" class="panel" hidden>
+      <div class="panel-inner">
+        <h2>Engineering</h2>
+        <p class="lead">
+          The Forth Bridge was the first large-scale steel structure of its type in the world.
+          Its cantilever design — radical for its time — set new standards for materials,
+          scale, and ambition in civil engineering.
+        </p>
+
+        <div class="info-block">
+          <h3>The designers</h3>
+          <ul>
+            <li>
+              <strong>Sir John Fowler (1817–1898)</strong> — senior partner. Had previously designed
+              parts of the London Underground's Metropolitan Railway.
+            </li>
+            <li>
+              <strong>Sir Benjamin Baker (1840–1907)</strong> — junior partner, responsible for much
+              of the detailed structural engineering. Later also worked on the first Aswan Dam and the
+              London Underground's Central line.
+            </li>
+            <li>
+              <strong>William Arrol</strong> — contractor. His firm built the bridge using innovative
+              workshop and site techniques, and later constructed Tower Bridge in London.
+            </li>
+          </ul>
+        </div>
+
+        <div class="info-block">
+          <h3>The cantilever principle</h3>
+          <p>
+            A cantilever bridge is built from arms projecting horizontally from towers, balanced by
+            counterweights on the other side. The Forth Bridge uses three pairs of cantilevers,
+            each built from two towers connected at the top. Suspended spans hang between the
+            outstretched arms to complete the crossing.
+          </p>
+          <p>
+            Baker demonstrated this principle at the Royal Institution in 1887 using three men
+            seated in chairs: the two outer men stretched their arms to support a weight hanging
+            between them, with bricks serving as the anchor counterweights and broomsticks as
+            compression struts. This iconic "human cantilever" photograph — featuring Baker, Fowler,
+            and Japanese engineer Kaichi Watanabe — remains one of the most celebrated images in
+            engineering history.
+          </p>
+        </div>
+
+        <figure class="content-image">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/e/ee/Cantilever_bridge_human_model.jpg"
+            alt="Historical photograph of three men demonstrating the cantilever principle: two seated men with arms outstretched supporting a third man suspended between them, with piles of bricks as counterweights and broomsticks as compression struts"
+            width="1280"
+            height="980"
+            loading="lazy"
+          />
+          <figcaption>
+            Benjamin Baker's human cantilever demonstration, c.1887. The seated figures (believed to include Baker and Fowler) demonstrate how the bridge's cantilever arms carry load — 
+            <a href="https://commons.wikimedia.org/wiki/File:Cantilever_bridge_human_model.jpg" target="_blank" rel="noopener">Unknown photographer for Benjamin Baker</a>, Public Domain, via Wikimedia Commons
+          </figcaption>
+        </figure>
+
+        <h3>Key dimensions</h3>
+        <div class="table-wrapper">
+          <table>
+            <thead>
+              <tr><th>Measurement</th><th>Metric</th><th>Imperial</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>Overall length</td><td>2,467 m</td><td>8,094 ft</td></tr>
+              <tr><td>Main structure (portal to portal)</td><td>1,630 m</td><td>5,348 ft</td></tr>
+              <tr><td>Main span</td><td>521 m</td><td>1,709 ft</td></tr>
+              <tr><td>Cantilever arm projection</td><td>207 m</td><td>679 ft</td></tr>
+              <tr><td>Suspended spans</td><td>107 m each</td><td>351 ft each</td></tr>
+              <tr><td>Height above high water</td><td>110 m</td><td>361 ft</td></tr>
+              <tr><td>Height above foundations</td><td>137 m</td><td>449 ft</td></tr>
+              <tr><td>Rail level above high water</td><td>46 m</td><td>150 ft</td></tr>
+              <tr><td>Main tube diameter</td><td>4 m</td><td>12 ft</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h3>Materials &amp; construction</h3>
+        <div class="facts-grid">
+          <div class="fact-card">
+            <span class="fact-number">53,000</span>
+            <span class="fact-label">Tonnes of steel</span>
+          </div>
+          <div class="fact-card">
+            <span class="fact-number">6.5 million</span>
+            <span class="fact-label">Rivets</span>
+          </div>
+          <div class="fact-card">
+            <span class="fact-number">120,000</span>
+            <span class="fact-label">Cubic yards of concrete &amp; masonry</span>
+          </div>
+          <div class="fact-card">
+            <span class="fact-number">£3 million</span>
+            <span class="fact-label">Original cost (~£400m today)</span>
+          </div>
+          <div class="fact-card">
+            <span class="fact-number">230,000 m²</span>
+            <span class="fact-label">Total painted surface area</span>
+          </div>
+          <div class="fact-card">
+            <span class="fact-number">1,040</span>
+            <span class="fact-label">Lights installed</span>
+          </div>
+        </div>
+
+        <div class="info-block">
+          <h3>The paint</h3>
+          <p>
+            For most of the bridge's history, maintenance painting was a near-continuous operation —
+            giving rise to the phrase "painting the Forth Bridge" as a metaphor for a task that
+            never ends. The 2011 refurbishment changed that: a glass-flake epoxy coating was applied
+            across all 230,000 sq metres using approximately <strong>240,000 litres of paint</strong>.
+            The new coating is predicted to last 25 years. Despite this, every one of the
+            6.5 million rivets still had to be painted by hand.
+          </p>
+          <p>
+            The bridge is also fitted with <strong>1,040 lights</strong> connected by
+            35,000–40,000 metres of cable, giving it a distinctive illuminated profile at night.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- HERITAGE -->
+    <section role="tabpanel" id="panel-heritage" aria-labelledby="tab-heritage" class="panel" hidden>
+      <div class="panel-inner">
+        <h2>Heritage</h2>
+        <p class="lead">
+          The Forth Bridge is more than a functioning railway structure — it is a cultural symbol,
+          a UNESCO World Heritage Site, and a direct response to one of Victorian Britain's greatest
+          engineering disasters.
+        </p>
+
+        <div class="info-block highlight-block">
+          <h3>UNESCO World Heritage Site</h3>
+          <p>
+            In <strong>July 2015</strong>, the Forth Bridge was inscribed as a UNESCO World Heritage
+            Site — the sixth in Scotland. It was recognised under two criteria:
+          </p>
+          <ul>
+            <li>
+              <strong>Criterion (i):</strong> A masterpiece of human creative genius.
+            </li>
+            <li>
+              <strong>Criterion (iv):</strong> An outstanding example of an architectural or
+              engineering ensemble that illustrates a significant stage in human history.
+            </li>
+          </ul>
+          <p>
+            UNESCO describes it as "a milestone in bridge design" and "an engineering wonder of the
+            world." The 521 m cantilever spans were individually the world's longest for 28 years
+            and remain collectively the longest in any multi-span cantilever bridge.
+          </p>
+        </div>
+
+        <div class="info-block">
+          <h3>Born from disaster</h3>
+          <p>
+            The Forth Bridge's character — robust, visually transparent, almost deliberately
+            over-engineered — was shaped by the Tay Bridge disaster of December 1879. When that
+            bridge collapsed in a storm and killed 75 people, public trust in railway bridges
+            collapsed with it.
+          </p>
+          <p>
+            Fowler and Baker applied safety factors far beyond what had been used before. The open
+            steel lattice was not just structurally sound — it was <em>designed to look</em> sound,
+            to communicate permanence and stability to a deeply sceptical public.
+          </p>
+        </div>
+
+        <div class="info-block">
+          <h3>Painting the Forth Bridge</h3>
+          <p>
+            The phrase <strong>"painting the Forth Bridge"</strong> entered everyday English as an
+            idiom for any task that is never truly finished — by the time painters reached one end,
+            the other end needed doing again. With 230,000 sq metres of surface and 6.5 million
+            individual rivets, the image was apt.
+          </p>
+          <p>
+            The 2011 completion of the glass-flake epoxy repaint — a 10-year project — effectively
+            retired the literal truth of that phrase. The new coating is expected to last 25 years.
+          </p>
+        </div>
+
+        <div class="info-block">
+          <h3>The human cantilever photograph</h3>
+          <p>
+            In 1887, to build public confidence ahead of completion, Benjamin Baker staged a
+            demonstration of the cantilever principle using three men, chairs, broomsticks, and
+            bricks. The photograph, taken by Evelyn George Carey, shows Baker and Fowler as the
+            outer seated figures, with Japanese engineer <strong>Kaichi Watanabe</strong> suspended
+            in the middle as the "load." It is one of the most reproduced engineering images in
+            history and now held in the National Galleries of Scotland.
+          </p>
+        </div>
+
+        <div class="info-block">
+          <h3>A symbol of Scotland</h3>
+          <p>
+            The bridge has featured on banknotes, stamps, and in countless artworks. It was
+            photographed extensively even before completion — making it one of the earliest major
+            construction projects to be documented in real time by photography. In 2016, a public
+            poll voted it <strong>Scotland's greatest man-made wonder</strong>.
+          </p>
+        </div>
+
+        <figure class="content-image">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Forth_Rail_Bridge_by_Night.jpg"
+            alt="The Forth Bridge illuminated at night, its red steel lattice reflected in the dark waters of the Firth of Forth below"
+            width="1280"
+            height="960"
+            loading="lazy"
+          />
+          <figcaption>
+            The Forth Bridge illuminated at night —
+            <a href="https://commons.wikimedia.org/wiki/File:Forth_Rail_Bridge_by_Night.jpg" target="_blank" rel="noopener">dearbarbie</a>,
+            <a href="https://creativecommons.org/licenses/by-sa/2.0" target="_blank" rel="noopener">CC BY-SA 2.0</a>, via Wikimedia Commons
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- VISITORS -->
+    <section role="tabpanel" id="panel-visitors" aria-labelledby="tab-visitors" class="panel" hidden>
+      <div class="panel-inner">
+        <h2>Visitors</h2>
+        <p class="lead">
+          The Forth Bridge can be admired up close from South Queensferry, crossed by train, and
+          explored on foot via the Forth Bridges Trail. Here is everything you need to plan a visit.
+        </p>
+
+        <div class="info-block">
+          <h3>Location</h3>
+          <ul>
+            <li><strong>South side:</strong> South Queensferry, Edinburgh, Scotland (EH30)</li>
+            <li><strong>North side:</strong> North Queensferry, Fife, Scotland (KY11)</li>
+            <li><strong>Coordinates:</strong> 56.0°N, 3.4°W</li>
+          </ul>
+        </div>
+
+        <div class="info-block">
+          <h3>Getting there</h3>
+
+          <h4>By train</h4>
+          <p>
+            The best way to cross the bridge is by train. Services on the Edinburgh–Aberdeen and
+            Edinburgh–Dundee lines cross the bridge regularly. Passengers get an unobstructed view
+            from the carriage windows as the train passes over the Firth of Forth.
+          </p>
+          <ul>
+            <li><strong>Dalmeny station</strong> (south side) — served by ScotRail from Edinburgh Waverley.</li>
+            <li><strong>North Queensferry station</strong> (north side) — a short walk from the waterfront.</li>
+          </ul>
+
+          <h4>By car</h4>
+          <p>
+            The Forth Bridge carries rail traffic only — it cannot be driven across. For road travel
+            use the <strong>Forth Road Bridge</strong> or the newer <strong>Queensferry Crossing</strong>
+            (opened 2017), both of which offer excellent views of the railway bridge from the road.
+          </p>
+
+          <h4>On foot or by bike</h4>
+          <p>
+            South Queensferry is approximately 13 miles west of Edinburgh city centre and accessible
+            by bus (Lothian Buses route 43) or a dedicated cycle path from the city. The town sits
+            directly beneath the south tower and offers the best ground-level views.
+          </p>
+        </div>
+
+        <div class="info-block">
+          <h3>What to see</h3>
+          <ul>
+            <li>
+              <strong>South Queensferry waterfront</strong> — standing beneath the south tower gives
+              a true sense of the bridge's scale. The best photo spots are along the shoreline.
+            </li>
+            <li>
+              <strong>The Forth Bridges Trail</strong> — a signposted walking and cycling route
+              taking in all three bridges: the Forth Bridge, Forth Road Bridge, and Queensferry
+              Crossing.
+            </li>
+            <li>
+              <strong>Boat tours</strong> — several operators depart from South Queensferry pier,
+              passing directly beneath the bridge for close-up views from the water.
+            </li>
+            <li>
+              <strong>The Hawes Inn</strong> — a historic inn at the water's edge, mentioned in
+              Robert Louis Stevenson's <em>Kidnapped</em> (1886). It predates the bridge and offers
+              views of the structure from its gardens.
+            </li>
+          </ul>
+        </div>
+
+        <div class="info-block">
+          <h3>Nearby attractions</h3>
+          <ul>
+            <li>
+              <strong>Queensferry Museum</strong> — covers the history of all three Forth bridges
+              and the communities around them. Free entry.
+            </li>
+            <li>
+              <strong>Dalmeny House and Estate</strong> — a Gothic Revival house with grounds
+              stretching to the Firth of Forth shore, offering views of the bridge from the coast
+              path.
+            </li>
+            <li>
+              <strong>Inchcolm Island</strong> — reached by ferry from South Queensferry, the island
+              features a well-preserved 12th-century Augustinian abbey, Scotland's best-preserved
+              medieval monastic complex.
+            </li>
+          </ul>
+        </div>
+
+        <div class="info-block highlight-block">
+          <h3>Practical tips</h3>
+          <ul>
+            <li>The bridge is an active railway — access onto the structure itself is not permitted.</li>
+            <li>South Queensferry has a good range of cafés and restaurants along the High Street.</li>
+            <li>Boat tour availability is seasonal — check in advance, especially outside summer.</li>
+            <li>The bridge is lit up after dark; evening visits from the waterfront can be spectacular.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>
+      Information sourced from
+      <a href="https://www.theforthbridges.org/" target="_blank" rel="noopener">The Forth Bridges</a>,
+      <a href="https://whc.unesco.org/fr/list/1485/" target="_blank" rel="noopener">UNESCO World Heritage Centre</a>,
+      and
+      <a href="https://www.networkrail.co.uk/" target="_blank" rel="noopener">Network Rail</a>.
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
